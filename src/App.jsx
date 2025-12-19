@@ -2,13 +2,15 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Greetings from './components/Greetings'
+import Profile from './components/Profile'
 
 function App() {
   return (
-    <div>
+    <div className = 'card'>
       <Routes>
       <Route path='/react-component-dep' element = {<Greetings/>}/>
-    </Routes>
+      <Route path='/react-component-dep/profile' element = {<Profile/>}/>
+      </Routes>
     </div>
     
   )
