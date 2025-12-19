@@ -5,9 +5,12 @@ import Greetings from './components/Greetings'
 
 function App() {
   return (
-    <Routes>
+    <div>
+      <Routes>
       <Route path='/react-component-dep' element = {<Greetings/>}/>
     </Routes>
+    </div>
+    
   )
 }
 export default App
