@@ -1,10 +1,9 @@
 import"../App.css"
-function Greetings({message}) {
+function Greetings() {
     return(
-        <>
-        <h1>{message} </h1>
-        <Greetings message = "Whatever"/>
-        </>
+        <div>
+            <h1> whatever ....</h1>
+        </div>
     )
 }
 
